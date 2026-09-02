@@ -7,28 +7,40 @@ import { FadeIn } from "@/src/components/motion/fade-in";
 
 const results = [
   {
-    title: "Rhinoplasty",
-    image: "/results/nose.jpg",
+    title: "Teeth Whitening",
+    image: "/results/teeth-whitening1.png",
     description:
-      "Refined shape for a more balanced and natural look.",
+      "A brighter, cleaner-looking smile with professional dental whitening care.",
   },
   {
-    title: "Facelift",
-    image: "/results/face.jpg",
+    title: "Braces & Alignment",
+    image: "/results/braces-alignment.png",
     description:
-      "Tighter, youthful contours and rejuvenated appearance.",
+      "Improved tooth alignment for a healthier bite and a more confident smile.",
   },
   {
-    title: "Hair Transplant",
-    image: "/results/hair.jpg",
+    title: "Dental Implants",
+    image: "/results/dental-implants1.png",
     description:
-      "Natural hair density restored for a confident you.",
+      "Replace missing teeth with a natural-looking and functional solution.",
   },
   {
-    title: "Liposuction",
-    image: "/results/liposuction.jpg",
+    title: "Tooth Restoration",
+    image: "/results/tooth-restoration.png",
     description:
-      "Sculpted body contours and improved definition.",
+      "Damaged or decayed teeth restored to improve comfort and function.",
+  },
+  {
+    title: "Smile Makeover",
+    image: "/results/smile-makeover.png",
+    description:
+      "Personalized treatments designed to improve the overall appearance of your smile.",
+  },
+  {
+    title: "Crowns & Bridges",
+    image: "/results/crowns-bridges1.png",
+    description:
+      "Restore damaged or missing teeth with durable and natural-looking solutions.",
   },
 ];
 
@@ -66,16 +78,16 @@ export default function Results() {
             <span className="h-px w-14 bg-[#C9A657]" />
 
             <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-[#C9973E] sm:text-xs">
-              Real Results, Real Confidence
+              Real Smiles, Real Confidence
             </span>
 
             <span className="h-px w-14 bg-[#C9A657]" />
           </div>
 
           <h2 className=" text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[62px]">
-            Results That{" "}
+            Results That Build{" "}
             <span className="text-[#286FA7]">
-              Speak
+              Confidence
             </span>
           </h2>
 
@@ -86,8 +98,8 @@ export default function Results() {
           </div>
 
           <p className="mx-auto mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            See the transformation. Every result reflects our commitment to
-            natural beauty, precision and personalized patient care.
+              Explore how personalized dental care can improve oral health, restore
+              function and help create healthier, more confident smiles.
           </p>
         </div>
       </FadeIn>
@@ -96,7 +108,7 @@ export default function Results() {
             RESULTS CARDS
         ====================================================== */}
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:mt-14 xl:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:mt-14 xl:grid-cols-3">
           {results.map((result , index) => (
             <ResultCard
               key={result.title}
@@ -134,7 +146,7 @@ function ResultCard({
           TITLE
       ====================================================== */}
 
-      <div className="relative z-10 mx-auto mb-1 flex h-[42px] w-[210px] items-center justify-center rounded-xl bg-[#062D4D] px-4 shadow-lg">
+      <div className="relative z-10 mx-auto mb-1 flex h-[42px] w-[210px] items-center justify-center rounded-xl bg-[#062D4D] px-4 shadow-lg mt-2">
         <h3 className="text-[15px] font-semibold text-white">
           {result.title}
         </h3>
@@ -144,19 +156,19 @@ function ResultCard({
           COMBINED BEFORE / AFTER IMAGE
       ====================================================== */}
 
-      <div className="relative mx-2 overflow-hidden rounded-xl">
-        <div className="relative aspect-[1/1.08] bg-slate-100">
+        <div className="relative ">
           <Image
             src={result.image}
+            height={800}
+            width={800}
             alt={`${result.title} before and after results`}
-            fill
-            className=" transition duration-700 group-hover:scale-[1.02]"
+            className=" transition duration-700 group-hover:scale-[1.02] !h-[250px] w-full"
           />
 
           {/* Soft overlay */}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
+          {/* <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" /> */}
         </div>
-      </div>
+      
 
       {/* =====================================================
           DESCRIPTION

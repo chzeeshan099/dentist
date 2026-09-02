@@ -14,25 +14,25 @@ const highlights = [
     icon: Award,
     title: "Expertise & Experience",
     description:
-      "Years of specialized training and hands-on experience in plastic, cosmetic and hair transplant surgery.",
+      "Professional dental expertise and hands-on experience in providing comprehensive oral and dental care.",
   },
   {
     icon: HeartHandshake,
     title: "Patient-Centered Care",
     description:
-      "Every treatment is personalized to meet individual goals with compassion and respect.",
+      "Every patient receives personalized attention and a treatment plan designed around their individual dental needs.",
   },
   {
     icon: ShieldCheck,
-    title: "Safety & Precision",
+    title: "Comfort & Safety",
     description:
-      "Commitment to advanced techniques, safety protocols and natural-looking outcomes.",
+      "Committed to safe, gentle and modern dental treatments in a comfortable and caring environment.",
   },
   {
     icon: Star,
-    title: "Trusted Results",
+    title: "Healthy, Confident Smiles",
     description:
-      "A patient-focused approach designed to help restore confidence and achieve meaningful results.",
+      "Focused on improving oral health and helping every patient achieve a healthy and confident smile.",
   },
 ];
 
@@ -78,8 +78,8 @@ export default function AboutDoctor() {
             {/* Main Image Wrapper */}
             <div className="relative aspect-[0.91/1] overflow-hidden rounded-[18px] bg-[#DDEAF1] shadow-[0_25px_70px_rgba(9,45,74,0.14)]">
               <Image
-                src="/doctor.png"
-                alt="Dr. M. Rizwan Ul Zaman Kharal"
+                src="/dr-image.jpg"
+                alt="Dr. Muhammad   image"
                 fill
                 priority
                 className="object-cover object-top"
@@ -110,21 +110,21 @@ export default function AboutDoctor() {
 
             {/* Heading */}
             <h2 className=" text-[35px] sm:text-[43px] font-medium leading-[1.08] tracking-[-0.035em] text-[#092D4A] sm:text-[48px] lg:text-[52px] xl:text-[57px]">
-              Dedicated to Excellence.
+                Caring for Your Teeth.
               <br />
 
               <span className="text-[#286FA7]">
-                Committed to You.
+                Creating Confident Smiles.
               </span>
             </h2>
 
             {/* Description */}
             <p className="mt-7 max-w-2xl text-[14px] leading-7 text-slate-600 sm:text-[15px] sm:leading-7">
-              Dr. M. Rizwan Ul Zaman Kharal is a Consultant Plastic, Burn &
-              Hair Transplant Surgeon with experience in aesthetic,
-              reconstructive and hair restoration procedures. He is dedicated
-              to delivering personalized care with a strong focus on safety,
-              precision and natural-looking outcomes.
+              <span className="font-bold">Dr. Muhammad</span> is dedicated to providing personalized
+              and comprehensive dental care with a strong focus on oral health,
+              patient comfort and confident smiles. From routine dental care to
+              advanced treatments, every patient receives professional attention
+              tailored to their individual needs.
             </p>
 
             {/* Divider */}

@@ -144,10 +144,10 @@ ${message}
                 title="Call Us"
               >
                 <a
-                  href="tel:03008769011"
+                  href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER?.replace(/^92/, "0")}`}
                   className="transition hover:text-[#C9973E]"
                 >
-                 {WHATSAPP_NUMBER}
+                 {process.env.NEXT_PUBLIC_CONTACT_NUMBER?.replace(/^92/, "0")}
                 </a>
               </ContactItem>
 

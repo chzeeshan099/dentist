@@ -15,10 +15,12 @@ import {
 const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_CONTACT_NUMBER;
 
 export default function ContactUs() {
+
   const handleWhatsApp = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const formData = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     const name = formData.get("name");
     const phone = formData.get("phone");
@@ -27,23 +29,25 @@ export default function ContactUs() {
     const message = formData.get("message");
 
     const text = `
-Hello Dr. Muhammad,
+              Hello Dr. Muhammad,
+              I would like to contact you.
 
-I would like to contact you.
+              *Name:*  ${name}
 
-Name: ${name}
-Phone: ${phone}
-Subject: ${subject}
+              *Phone:* ${phone}
 
-Message:
-${message}
-    `.trim();
+              *Subject:* ${subject}
+
+              *Message:*${message}
+              `.trim();
 
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
       text
     )}`;
 
     window.open(whatsappUrl, "_blank");
+    // Form ki sari fields empty ho jayengi
+    form.reset();
   };
 
   return (

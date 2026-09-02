@@ -288,7 +288,7 @@ export default function Services() {
 
         {/* CTA */}
         <Link
-          href="#appointment"
+          href="#contact"
           className="group mt-7 flex items-center justify-center gap-1 rounded-xl bg-[#E3B866] px-3 py-3.5 text-xs font-bold text-[#062D4D] shadow-lg shadow-black/10 transition duration-300 hover:-translate-y-1 hover:bg-[#F0CA7A] sm:gap-3 sm:text-sm"
         >
           <CalendarDays size={18} strokeWidth={2} />
@@ -357,7 +357,7 @@ function ProcedureCard({
 }) {
   return (
     <Link
-      href="#appointment"
+      href="#contact"
       className="group overflow-hidden rounded-xl bg-white shadow-[0_4px_15px_rgba(9,45,74,0.07)] ring-1 ring-slate-100 transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_25px_rgba(9,45,74,0.13)]"
     >
       {/* Image */}

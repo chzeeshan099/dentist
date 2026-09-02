@@ -141,12 +141,12 @@ export function Navbar() {
               </a>
 
               <Link
-                href="#appointment"
+                href="#contact"
                 onClick={() => setMobileOpen(false)}
                 className="flex items-center justify-center gap-2 rounded-xl bg-[#D6AE5C] py-3.5 text-sm font-semibold text-[#082B49] transition hover:bg-[#E4C477]"
               >
                 <CalendarDays size={17} />
-                Book Consultation
+                Book Appointment
               </Link>
             </div>
           </div>

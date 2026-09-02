@@ -274,7 +274,7 @@ const Hero = () => {
           {/* CTA */}
           <div className="mt-9 flex flex-col gap-2 sm:flex-row">
             <Link
-              href="#appointment"
+              href="#contact"
               className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[#082F50] px-3 py-3.5 text-xs font-semibold text-white shadow-xl shadow-[#082F50]/15 transition duration-300 hover:-translate-y-1 hover:bg-[#0B416A]"
             >
               <CalendarDays size={18} />

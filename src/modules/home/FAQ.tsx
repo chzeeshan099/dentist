@@ -304,7 +304,7 @@ export default function FAQ() {
           </div>
 
           <a
-            href="#appointment"
+            href="#contact"
             className="group flex shrink-0 items-center gap-2 rounded-xl bg-[#062D4D] px-5 py-3.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:bg-[#0A3B5D]"
           >
             Book Appointment

@@ -11,24 +11,45 @@ import {
 const testimonials = [
   {
     name: "Muhammad Ahmed",
-    location: "Layyah",
-    treatment: "Hair Transplant",
-    text: "The consultation was very professional and everything was explained clearly. I felt comfortable throughout the whole process.",
+    location: "Lahore",
+    treatment: "Teeth Cleaning",
+    text: "The dentist made me feel comfortable from the beginning. Everything was explained clearly, and the treatment was gentle and professional.",
     initials: "MA",
   },
   {
     name: "Ayesha Khan",
     location: "Multan",
-    treatment: "Aesthetic Treatment",
-    text: "A very professional experience from consultation to follow-up. The team was supportive, caring and attentive throughout.",
+    treatment: "Teeth Whitening",
+    text: "I had a wonderful experience. The team was caring and professional, and I am very happy with my brighter smile.",
     initials: "AK",
   },
   {
     name: "Usman Raza",
-    location: "Layyah",
-    treatment: "Plastic Surgery",
-    text: "The doctor took the time to understand my concerns and explained the available options in a very clear and professional way.",
+    location: "Islamabad",
+    treatment: "Dental Restoration",
+    text: "The dentist explained every treatment option clearly and made sure I was comfortable throughout the procedure.",
     initials: "UR",
+  },
+  {
+    name: "Fatima Ali",
+    location: "Karachi",
+    treatment: "Braces & Alignment",
+    text: "I felt supported throughout my treatment journey. The team was friendly, professional and always ready to answer my questions.",
+    initials: "FA",
+  },
+  {
+    name: "Ali Hassan",
+    location: "Faisalabad",
+    treatment: "Dental Implants",
+    text: "From consultation to follow-up, the experience was professional and reassuring. I felt confident in the care I received.",
+    initials: "AH",
+  },
+  {
+    name: "Sara Malik",
+    location: "Rawalpindi",
+    treatment: "Smile Makeover",
+    text: "The personalized approach made a big difference. The dentist listened carefully to my concerns and explained everything clearly.",
+    initials: "SM",
   },
 ];
 
@@ -91,7 +112,7 @@ export default function Testimonials() {
           </div>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            Hear from patients who trusted us with their care and treatment
+            Hear from patients who trusted us with their dental care and smile
             journey.
           </p>
         </div>

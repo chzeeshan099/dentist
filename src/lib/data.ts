@@ -34,7 +34,7 @@ import type {
 export const navItems: any = [
   { label: "Home", href: "/" },
   { label: "About Doctor", href: "#about" },
-  { label: "Procedures", href: "#procedures", dropdown: true },
+  { label: "Services", href: "#services", dropdown: true },
   { label: "Results", href: "#results" },
   { label: "FAQs", href: "#faqs" },
   { label: "Contact", href: "#contact" },

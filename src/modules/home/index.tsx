@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './Hero'
-import Procedures from './Procedures'
+import Services from './Services'
 import AboutDoctor from './AboutDoctor'
 import WhyChooseUs from './WhyChooseUs'
 import Results from './Results'
@@ -12,7 +12,7 @@ const index = () => {
   return (
     <div>
      <Hero/>
-     <Procedures/>
+     <Services/>
      <AboutDoctor/>
      <WhyChooseUs/>
      <Results/>

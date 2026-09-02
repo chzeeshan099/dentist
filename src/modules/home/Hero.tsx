@@ -38,7 +38,7 @@ const stats = [
     value: "20+",
     number: 20,
     suffix: "+",
-    label: "Specialized Procedures",
+    label: "Specialized Services",
   },
   {
     icon: FileText,
@@ -288,7 +288,7 @@ const Hero = () => {
             </Link>
 
             <Link
-              href="#procedures"
+              href="#services"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#0B416A]/30 bg-white px-3 py-3.5 text-xs font-semibold text-[#082F50] transition duration-300 hover:-translate-y-1 hover:border-[#C9A657] hover:bg-[#FFFDF8]"
             >
               Your Services
@@ -444,7 +444,7 @@ const Hero = () => {
                 Specialized
               </p>
               <p className="text-[10px] sm:text-xs text-slate-500">
-                Procedures
+                Services
               </p>
             </div>
           </div>

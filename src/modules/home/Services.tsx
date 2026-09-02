@@ -119,10 +119,10 @@ const categories: Category[] = [
   },
 ];
 
-export default function Procedures() {
+export default function Services() {
   return (
     <section
-      id="procedures"
+      id="services"
       className="relative overflow-hidden bg-[#F7F9FC] py-20 sm:py-24 lg:py-28"
     >
       {/* Background Decoration */}

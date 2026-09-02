@@ -17,7 +17,7 @@ import Image from "next/image";
 const quickLinks = [
   { label: "Home", href: "#home" },
   { label: "About Doctor", href: "#about" },
-  { label: "Procedures", href: "#procedures" },
+  { label: "Services", href: "#services" },
   { label: "Why Choose Us", href: "#why-choose-us" },
   { label: "Results", href: "#results" },
   { label: "Testimonials", href: "#testimonials" },
@@ -25,18 +25,18 @@ const quickLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
-const procedures = [
-  "Plastic Surgery",
-  "Hair Transplant",
-  "Facelift",
-  "Blepharoplasty",
-  "Hydra Facial",
-  "Botox",
+const services = [
+  "Dental Implants",
+  "Teeth Whitening",
+  "Root Canal Treatment",
+  "Orthodontics",
+  "Cosmetic Dentistry",
+  "Dental Veneers",
   "Fat Grafting",
   "Laser Hair Removal",
 ];
 
-const WHATSAPP_NUMBER = "923008769011";
+const WHATSAPP_NUMBER = "923195641661";
 
 export function Footer() {
   return (
@@ -148,7 +148,7 @@ export function Footer() {
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-full">
                 <Image
-                  src="/doctor3.png"
+                  src="/dr-image2.png"
                   alt="Dr. M. Rizwan Ul Zaman Kharal"
                   height={80}
                   width={80}
@@ -158,19 +158,18 @@ export function Footer() {
 
               <div>
                 <p className="text-[21px] font-medium leading-none text-white">
-                  Dr. Rizwan
+                  Dr. Muhammad
                 </p>
 
                 <p className="mt-1 text-[9px] font-semibold uppercase tracking-[0.22em] text-[#DDB45D]">
-                  Plastic & Hair Transplant Surgeon
+                  Dental Surgeon & Smile Care Specialist
                 </p>
               </div>
             </a>
 
             <p className="mt-6 max-w-sm text-sm leading-7 text-white/55">
-              Providing personalized plastic, cosmetic and hair restoration
-              care with a focus on safety, precision and natural-looking
-              results.
+             Providing personalized dental care with a focus on comfort,
+             precision and healthy, confident smiles.
             </p>
 
             {/* Social Icons */}
@@ -235,19 +234,19 @@ export function Footer() {
           </div>
 
           {/* ===================================================
-              PROCEDURES
+              Services
           ==================================================== */}
 
           <div>
             <FooterHeading>
-              Our Procedures
+              Our Services
             </FooterHeading>
 
             <ul className="space-y-3.5">
-              {procedures.map((procedure) => (
-                <li key={procedure}>
+              {services.map((service) => (
+                <li key={service}>
                   <a
-                    href="#procedures"
+                    href="#services"
                     className="group flex items-center gap-2 text-sm text-white/55 transition hover:text-[#E1B45D]"
                   >
                     <ChevronRight
@@ -255,7 +254,7 @@ export function Footer() {
                       className="text-[#C89B45] transition-transform group-hover:translate-x-1"
                     />
 
-                    {procedure}
+                    {service}
                   </a>
                 </li>
               ))}

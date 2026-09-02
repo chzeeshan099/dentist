@@ -167,7 +167,7 @@ const Hero = () => {
 
         {/* ================= LEFT CONTENT ================= */}
         <FadeIn delay={0.6}>
-        <div className="relative z-10 flex flex-col justify-center px-5 py-14 sm:px-8 lg:px-10 lg:py-20">
+        <div className="relative z-10 flex flex-col justify-center px-5 py-14 sm:px-8  lg:py-20">
           
           {/* Eyebrow */}
           <div className="mb-6 flex items-center gap-3">
@@ -205,13 +205,13 @@ const Hero = () => {
           </p>
 
           {/* Feature Pills */}
-          <div className="mt-8 grid max-w-xl grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="mt-8 grid max-w-xl grid-cols-1 gap-3 sm:grid-cols-3">
             
             {/* Feature 1 */}
-            <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
+            <div className="flex items-center gap-2">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
                 <ShieldCheck
-                  size={20}
+                  size={18}
                   className="text-[#C9A657]"
                   strokeWidth={1.8}
                 />
@@ -229,10 +229,10 @@ const Hero = () => {
             </div>
 
             {/* Feature 2 */}
-            <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
+            <div className="flex items-center gap-2">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
                 <UserRoundCheck
-                  size={20}
+                  size={18}
                   className="text-[#C9A657]"
                   strokeWidth={1.8}
                 />
@@ -250,10 +250,10 @@ const Hero = () => {
             </div>
 
             {/* Feature 3 */}
-            <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
+            <div className="flex items-center gap-2">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-100">
                 <Sparkles
-                  size={20}
+                  size={18}
                   className="text-[#C9A657]"
                   strokeWidth={1.8}
                 />

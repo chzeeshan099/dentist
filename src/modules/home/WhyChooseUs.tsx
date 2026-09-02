@@ -4,40 +4,40 @@ import Image from "next/image";
 
 const reasons = [
   {
-    title: "Experienced Specialist",
+    title: "Experienced Dental Care",
     description:
-      "Specialized experience in plastic, burn and hair transplant surgery with a patient focused approach.",
-    image: "/why_choose_us/experienced-specialist.jpg",
+      "Professional dental care focused on maintaining healthy teeth, gums and confident smiles.",
+    image: "/why_choose_us/experienced-dentist.png",
   },
   {
-    title: "Personalized Approach",
+    title: "Personalized Treatment",
     description:
-      "Every patient is unique. Treatment options are tailored around individual needs and goals.",
-    image: "/why_choose_us/personalized-approach.jpg",
+      "Every patient receives a treatment plan tailored to their individual dental needs and concerns.",
+    image: "/why_choose_us/personalized-dental-care.png",
   },
   {
-    title: "Advanced Technology",
+    title: "Modern Dental Technology",
     description:
-      "Modern techniques and appropriate technology help support safe, precise and effective care.",
-    image: "/why_choose_us/advanced-technology.jpg",
+      "Modern equipment and techniques help provide accurate, comfortable and effective dental care.",
+    image: "/why_choose_us/advanced-dental-technology.png",
   },
   {
-    title: "Patient Safety First",
+    title: "Comfort & Safety First",
     description:
-      "Patient wellbeing, safety protocols and careful treatment planning remain a top priority.",
-    image: "/why_choose_us/patient-safety.jpg",
+      "Your comfort, hygiene and safety remain our priority throughout every dental treatment.",
+    image: "/why_choose_us/dental-safety.png",
   },
   {
-    title: "Natural Looking Results",
+    title: "Healthy, Beautiful Smiles",
     description:
-      "Aesthetic treatment focused on balanced, natural-looking and harmonious outcomes.",
-    image: "/why_choose_us/natural-looking-results.jpg",
+      "From routine care to smile enhancement, we focus on improving both oral health and confidence.",
+    image: "/why_choose_us/healthy-smile.png",
   },
   {
-    title: "Trusted by Patients",
+    title: "Trusted Patient Care",
     description:
-      "A compassionate approach built around clear communication, comfort and patient confidence.",
-    image: "/why_choose_us/trusted-by-patients.jpg",
+      "Clear communication, gentle care and a patient-focused approach at every step of your visit.",
+    image: "/why_choose_us/trusted-dental-care.png",
   },
 ];
 
@@ -82,8 +82,8 @@ export default function WhyChooseUs() {
           </div>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            We combine expertise, advanced technology and personalized care
-            to deliver safe, natural and outstanding results.
+             We combine professional dental expertise, modern technology and
+             personalized care to help you achieve a healthy and confident smile.
           </p>
         </div>
         </FadeIn>

@@ -6,6 +6,7 @@ import { ApplyModalProvider } from "@/src/components/providers/apply-modal-provi
 import { Footer } from "@/src/components/layout/footer";
 import { Navbar } from "@/src/components/layout/navbar";
 import { SiteSidebar } from "@/src/components/layout/site-sidebar";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Dr Muhammad",
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
             <SiteSidebar />
           </main> */}
           <Footer />
+          <WhatsAppButton/> 
           <ToastProvider />
         </ApplyModalProvider>
       </body>

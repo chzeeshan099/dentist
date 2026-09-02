@@ -270,24 +270,24 @@ export function Footer() {
 
             <div className="space-y-5">
             {/* Location */}
-<FooterContact icon={<MapPin size={18} />}>
-  <p>
-    Bright Smile Dental Clinic
-  </p>
+         <FooterContact icon={<MapPin size={18} />}>
+          <p>
+            Bright Smile Dental Clinic
+          </p>
 
-  <p className="mt-0.5 text-white/45">
-    Main Boulevard, Block A,
-    <br />
-    Model Town, Lahore, Pakistan
-  </p>
-</FooterContact>
+          <p className="mt-0.5 text-white/45">
+            Main Boulevard, Block A,
+            <br />
+            Model Town, Lahore, Pakistan
+          </p>
+         </FooterContact>
 
               {/* Phone */}
               <FooterContact
                 icon={<Phone size={18} />}
               >
                 <a
-                  href="tel:03008765072"
+                  href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER}`}
                   className="transition hover:text-[#E1B45D]"
                 >
                   {process.env.NEXT_PUBLIC_CONTACT_NUMBER}
@@ -299,10 +299,10 @@ export function Footer() {
                 icon={<Mail size={18} />}
               >
                 <a
-                  href="mailto:info@drrazwankharal.com"
+                  href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
                   className="break-all transition hover:text-[#E1B45D]"
                 >
-                  info@brightsmiledental.com
+                  {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
                 </a>
               </FooterContact>
 
@@ -399,12 +399,12 @@ function FooterContact({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex gap-3">
+    <div className="flex items-center gap-3">
       <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#0B3552] text-[#DDB45D]">
         {icon}
       </div>
 
-      <div className="pt-0.5 text-xs leading-5 text-white/65">
+      <div className="text-xs leading-4 text-white/65">
         {children}
       </div>
     </div>

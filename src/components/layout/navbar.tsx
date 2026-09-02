@@ -79,7 +79,7 @@ export function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden items-center gap-4 lg:flex">
             <a
-              href="tel:03008769011"
+              href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER}`}
               className="flex items-center justify-center text-white/80 transition hover:text-[#D6AE5C]"
               aria-label="Call clinic"
             >
@@ -133,7 +133,7 @@ export function Navbar() {
 
             <div className="mt-5 flex flex-col gap-3">
               <a
-                href="tel:03008769011"
+                href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER}`}
                 className="flex items-center justify-center gap-2 rounded-xl border border-white/15 py-3.5 text-sm font-medium text-white transition hover:border-[#D6AE5C] hover:text-[#D6AE5C]"
               >
                 <Phone size={17} />

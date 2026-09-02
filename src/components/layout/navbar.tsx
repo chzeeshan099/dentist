@@ -133,7 +133,7 @@ export function Navbar() {
 
             <div className="mt-5 flex flex-col gap-3">
               <a
-                href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER}`}
+                href={`tel:${process.env.NEXT_PUBLIC_CONTACT_NUMBER?.replace(/^92/, "0")}`}
                 className="flex items-center justify-center gap-2 rounded-xl border border-white/15 py-3.5 text-sm font-medium text-white transition hover:border-[#D6AE5C] hover:text-[#D6AE5C]"
               >
                 <Phone size={17} />

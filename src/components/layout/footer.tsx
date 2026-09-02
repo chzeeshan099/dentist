@@ -147,7 +147,7 @@ export function Footer() {
               <div className="flex h-16 w-16 items-center justify-center rounded-full">
                 <Image
                   src="/dr-image2.png"
-                  alt="Dr. M. Rizwan Ul Zaman Kharal"
+                  alt="Dr. M. Muhammad"
                   height={80}
                   width={80}
                   className="object-contain h-full w-14"

@@ -33,25 +33,25 @@ export function Navbar() {
             {/* Logo Mark */}
             <div className="flex h-13 w-13 shrink-0 items-center justify-center rounded-full border border-[#D6AE5C] bg-white/5">
               <Image
-                src="/doctor3.png"
-                alt="Dr. M. Rizwan Ul Zaman Kharal"
-                height={80}
-                width={80}
-                className="object-contain h-full w-8"
+                src="/dr-image2.png"
+                alt="Dr. Muhammad image"
+                height={800}
+                width={800}
+                className="object-contain h-full w-full"
               />
             </div>
 
             <div className="leading-none">
               <h1 className="text-[16px] font-semibold tracking-wide text-white sm:text-[18px]">
-                Dr. M. Rizwan
+                Dr. Muhammad
               </h1>
 
-              <p className="mt-1 text-[12px] font-medium text-white/80 sm:text-[13px]">
+              {/* <p className="mt-1 text-[12px] font-medium text-white/80 sm:text-[13px]">
                 Ul Zaman Kharal
-              </p>
+              </p> */}
 
-              <p className="mt-1 hidden text-[10px] font-medium tracking-wide text-[#D6AE5C] sm:block">
-                PLASTIC & HAIR TRANSPLANT SURGEON
+              <p className="mt-2 hidden text-[10px] font-medium tracking-wide text-[#D6AE5C] sm:block">
+                 Dental Surgeon & Smile Care Specialist
               </p>
             </div>
           </Link>
@@ -87,12 +87,12 @@ export function Navbar() {
             </a>
 
             <Link
-              href="#appointment"
+              href="#contact"
               className="group flex items-center gap-2 rounded-xl bg-[#D6AE5C] px-5 py-3 text-sm font-semibold text-[#082B49] shadow-lg shadow-[#D6AE5C]/10 transition duration-300 hover:-translate-y-0.5 hover:bg-[#E4C477]"
             >
               <CalendarDays size={17} />
 
-              <span>Book Consultation</span>
+              <span>Book Appointment</span>
             </Link>
           </div>
 

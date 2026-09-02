@@ -27,7 +27,7 @@ export default function ContactUs() {
     const message = formData.get("message");
 
     const text = `
-Hello Dr. Rizwan Ul Zaman Kharal,
+Hello Dr. Muhammad,
 
 I would like to contact you.
 

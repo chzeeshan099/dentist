@@ -316,7 +316,7 @@ const Hero = () => {
           <div className="absolute inset-0 rounded-md overflow-hidden">
             <Image
               src="/hero2.png"
-              alt="Dr. M. Rizwan Ul Zaman Kharal"
+              alt="Dr. Muhammad"
               fill
               priority
               className="object-cover object-center "
@@ -331,7 +331,7 @@ const Hero = () => {
           {/* <div className="absolute bottom-7 left-5 right-5 z-20 rounded-2xl border border-white/20 bg-[#082F50]/95 p-5 shadow-2xl backdrop-blur-md sm:bottom-10 sm:left-auto sm:right-8 sm:w-[360px]">
             
             <p className="text-lg font-semibold text-[#E3BE68] sm:text-xl">
-              Dr. M. Rizwan Ul Zaman Kharal
+              Dr. Muhammad
             </p>
 
             <p className="mt-2 max-w-xs text-sm leading-6 text-white/90">

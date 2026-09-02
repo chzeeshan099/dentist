@@ -8,7 +8,7 @@ import { Navbar } from "@/src/components/layout/navbar";
 import { SiteSidebar } from "@/src/components/layout/site-sidebar";
 
 export const metadata: Metadata = {
-  title: "Dr Rizwan",
+  title: "Dr Muhammad",
   // description: "Premium study abroad counselling, scholarships, admissions strategy, and visa support for ambitious students."
 };
 

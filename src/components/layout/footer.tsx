@@ -32,8 +32,6 @@ const services = [
   "Orthodontics",
   "Cosmetic Dentistry",
   "Dental Veneers",
-  "Fat Grafting",
-  "Laser Hair Removal",
 ];
 
 const WHATSAPP_NUMBER = "923195641661";
@@ -271,20 +269,18 @@ export function Footer() {
             </FooterHeading>
 
             <div className="space-y-5">
-              {/* Location */}
-              <FooterContact
-                icon={<MapPin size={18} />}
-              >
-                <p>
-                  Elite Cosmoplast Clinic
-                </p>
+            {/* Location */}
+<FooterContact icon={<MapPin size={18} />}>
+  <p>
+    Bright Smile Dental Clinic
+  </p>
 
-                <p className="mt-0.5 text-white/45">
-                  Near Iqbal Tikka Chowk,
-                  <br />
-                  D.H.Q. Link Road, Layyah
-                </p>
-              </FooterContact>
+  <p className="mt-0.5 text-white/45">
+    Main Boulevard, Block A,
+    <br />
+    Model Town, Lahore, Pakistan
+  </p>
+</FooterContact>
 
               {/* Phone */}
               <FooterContact
@@ -294,7 +290,7 @@ export function Footer() {
                   href="tel:03008765072"
                   className="transition hover:text-[#E1B45D]"
                 >
-                  0300 8765072
+                  0319 5641661
                 </a>
               </FooterContact>
 
@@ -306,7 +302,7 @@ export function Footer() {
                   href="mailto:info@drrazwankharal.com"
                   className="break-all transition hover:text-[#E1B45D]"
                 >
-                  info@drrazwankharal.com
+                  info@brightsmiledental.com
                 </a>
               </FooterContact>
 
@@ -338,7 +334,7 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 py-6 text-center sm:flex-row sm:text-left">
           <p className="text-[11px] text-white/40">
-            © {new Date().getFullYear()} Dr. M. Rizwan Ul Zaman Kharal.
+            © {new Date().getFullYear()} Dr. Muhammad.
             All rights reserved.
           </p>
 

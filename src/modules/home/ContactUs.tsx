@@ -12,7 +12,7 @@ import {
   Headphones,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "923195641661";
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_CONTACT_NUMBER;
 
 export default function ContactUs() {
   const handleWhatsApp = (e: React.FormEvent<HTMLFormElement>) => {

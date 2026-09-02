@@ -34,7 +34,7 @@ const services = [
   "Dental Veneers",
 ];
 
-const WHATSAPP_NUMBER = "923195641661";
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_CONTACT_NUMBER;
 
 export function Footer() {
   return (
@@ -290,7 +290,7 @@ export function Footer() {
                   href="tel:03008765072"
                   className="transition hover:text-[#E1B45D]"
                 >
-                  0319 5641661
+                  {process.env.NEXT_PUBLIC_CONTACT_NUMBER}
                 </a>
               </FooterContact>
 

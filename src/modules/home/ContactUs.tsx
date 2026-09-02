@@ -30,16 +30,16 @@ export default function ContactUs() {
 
     const text = `
               Hello Dr. Muhammad,
-              I would like to contact you.
+I would like to contact you.
 
-              *Name:*  ${name}
+*Name:*  ${name}
 
-              *Phone:* ${phone}
+*Phone:* ${phone}
 
-              *Subject:* ${subject}
+*Subject:* ${subject}
 
-              *Message:*${message}
-              `.trim();
+*Message:* ${message}
+`.trim();
 
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
       text

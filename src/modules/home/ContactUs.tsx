@@ -322,12 +322,12 @@ ${message}
               href={`https://wa.me/${WHATSAPP_NUMBER}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex shrink-0 items-center gap-3 rounded-xl bg-[#25D366] px-2 sm:px-6 py-3.5 text-[10px] sm:text-sm font-bold text-white shadow-lg shadow-green-500/10 transition duration-300 hover:-translate-y-1 hover:bg-[#20BD5A]"
+              className="min-w-[180px] flex items-center justify-center shrink-0 gap-2 rounded-xl bg-[#25D366] px-2 sm:px-6 py-3.5 text-[10px] sm:text-sm font-bold text-white shadow-lg shadow-green-500/10 transition duration-300 hover:-translate-y-1 hover:bg-[#20BD5A]"
             >
               <WhatsAppIcon />
 
               <span>
-                CHAT ON WHATSAPP
+                Chat On WhatsApp
               </span>
             </a>
           </div>

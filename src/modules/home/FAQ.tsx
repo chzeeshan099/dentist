@@ -101,7 +101,7 @@ export default function FAQ() {
           </div>
 
           {/* Heading */}
-          <h2 className=" text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[58px]">
+          <h2 className=" text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A]">
             Frequently Asked{" "}
             <span className="text-[#286FA7]">
               Questions
@@ -140,7 +140,7 @@ export default function FAQ() {
                 />
               </div>
 
-              <h3 className="mt-6 text-[27px] leading-tight text-white">
+              <h3 className="mt-6 text-xl sm:text-[27px] leading-tight text-white">
                 Have More Questions?
               </h3>
 

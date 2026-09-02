@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
             <span className="h-px w-10 bg-[#C9A657]" />
           </div>
 
-          <h2 className="text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[58px]">
+          <h2 className="text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A]">
             Why Choose Us
           </h2>
 

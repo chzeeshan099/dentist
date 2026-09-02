@@ -97,7 +97,7 @@ export default function Testimonials() {
           </div>
 
           {/* Heading */}
-          <h2 className=" text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[58px]">
+          <h2 className=" text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A]">
             What Our Patients{" "}
             <span className="text-[#286FA7]">
               Say
@@ -183,7 +183,7 @@ function TestimonialCard({
 }) {
   return (
     <FadeIn key={testimonial?.name} delay={index * 0.12}>
-       <article className="group relative flex min-h-[330px] flex-col overflow-hidden rounded-[20px] border border-slate-100 bg-[#FBFCFD] p-6 shadow-[0_10px_35px_rgba(9,45,74,0.06)] transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-[0_18px_45px_rgba(9,45,74,0.11)] sm:p-7">
+       <article className="group relative flex min-h-[330px] flex-col overflow-hidden rounded-[20px] border border-slate-100 bg-[#FBFCFD] p-6 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-[0_18px_45px_rgba(9,45,74,0.11)] sm:p-7">
       {/* Quote */}
       <div className="absolute right-6 top-5 text-[#E8EEF2]">
         <Quote

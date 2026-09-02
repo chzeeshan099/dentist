@@ -90,7 +90,7 @@ ${message}
           </div>
 
           {/* Heading */}
-          <h2 className="text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[62px]">
+          <h2 className="text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A]">
             Contact{" "}
             <span className="text-[#286FA7]">
               Us
@@ -212,7 +212,7 @@ ${message}
                 />
               </div>
 
-              <h3 className="text-lg font-semibold text-white">
+              <h3 className="text-base sm:text-lg font-semibold text-white">
                 Send Us a Message
               </h3>
             </div>
@@ -271,13 +271,13 @@ ${message}
               {/* WhatsApp Button */}
               <button
                 type="submit"
-                className="group mt-5 flex w-full items-center justify-center gap-1 sm:gap-3 rounded-lg bg-[#062D4D] px-2 sm:px-5 py-4 text-[8px] sm:text-sm font-bold text-white shadow-lg transition duration-300 hover:-translate-y-0.5 hover:bg-[#0A3A5D]"
+                className="group mt-5 flex w-full items-center justify-center gap-1 sm:gap-3 rounded-lg bg-[#062D4D] px-2 sm:px-5 py-4 text-[10px] sm:text-sm font-bold text-white shadow-lg transition duration-300 hover:-translate-y-0.5 hover:bg-[#0A3A5D]"
               >
                 {/* WhatsApp Icon */}
                 <WhatsAppIcon />
 
                 <span>
-                  SEND MESSAGE ON WHATSAPP
+                  Send Message On WhatsApp
                 </span>
 
                 <Send

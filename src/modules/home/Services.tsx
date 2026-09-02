@@ -146,7 +146,7 @@ export default function Services() {
           </div>
 
           {/* Heading */}
-          <h2 className=" text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[58px]">
+          <h2 className=" text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A]">
            Our Dental Services
           </h2>
 
@@ -218,7 +218,7 @@ export default function Services() {
           Healthy Smile, Personalized Care
         </p>
 
-        <h3 className="mt-3 text-[27px] leading-tight text-white sm:text-[31px]">
+        <h3 className="mt-3 text-[24px] sm:text-[30px] leading-tight text-white ">
           Not sure which dental
           <br className="hidden sm:block" />
           treatment is right for you?
@@ -226,7 +226,7 @@ export default function Services() {
 
         <div className="my-5 h-[2px] w-12 bg-[#D5AC59] mx-auto lg:mx-0" />
 
-        <p className="mx-auto max-w-xl text-sm leading-6 text-white/70 lg:mx-0">
+        <p className="mx-auto max-w-xl text-xs sm:text-sm leading-6 text-white/70 lg:mx-0">
           Schedule a consultation with our dental specialist to discuss
           your concerns and find the right treatment for a healthy,
           confident smile.
@@ -293,7 +293,7 @@ export default function Services() {
         >
           <CalendarDays size={18} strokeWidth={2} />
 
-          <span>BOOK A DENTAL CONSULTATION</span>
+          <span>Book Appointment</span>
 
           <ArrowRight
             size={18}

@@ -179,7 +179,7 @@ const Hero = () => {
           </div>
 
           {/* Heading */}
-          <h2 className="max-w-2xl text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.03em] text-[#092D4A] sm:text-[56px] lg:text-[64px] xl:text-[70px]">
+          <h2 className="max-w-2xl text-[30px] sm:text-[50px] font-medium leading-[1.05] tracking-[-0.03em] text-[#092D4A]">
             Quality
             <br />
 

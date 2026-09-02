@@ -157,10 +157,10 @@ ${message}
                 title="Email Us"
               >
                 <a
-                  href="mailto:info@drrazwankharal.com"
+                  href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
                   className="break-all transition hover:text-[#C9973E]"
                 >
-                  info@dentiest.com
+                  {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
                 </a>
               </ContactItem>
 

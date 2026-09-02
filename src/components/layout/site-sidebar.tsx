@@ -31,8 +31,8 @@ export function SiteSidebar() {
         <div className="px-4 py-4">
           <p className="text-sm leading-6 text-slate-700">
             <span className="font-bold text-slate-900">Contact us at:</span>{" "}
-            <a href="mailto:info@bzconsultancy.com" className="text-blue-700 hover:underline">
-              info@bzconsultancy.com
+            <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`} className="text-blue-700 hover:underline">
+              {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
             </a>
           </p>
         </div>
@@ -56,7 +56,7 @@ export function SiteSidebar() {
           ))}
         </nav>
 
-        <a href="mailto:info@bzconsultancy.com" className="flex items-center gap-2 bg-blue-700 px-4 py-3 text-xs font-bold text-white transition-colors hover:bg-blue-800">
+        <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`} className="flex items-center gap-2 bg-blue-700 px-4 py-3 text-xs font-bold text-white transition-colors hover:bg-blue-800">
           <Mail size={15} aria-hidden="true" />
           Get in touch
           <Send size={14} className="ml-auto" aria-hidden="true" />

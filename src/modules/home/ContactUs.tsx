@@ -22,7 +22,7 @@ export default function ContactUs() {
 
     const name = formData.get("name");
     const phone = formData.get("phone");
-    const email = formData.get("email");
+    // const email = formData.get("email");
     const subject = formData.get("subject");
     const message = formData.get("message");
 
@@ -33,7 +33,6 @@ I would like to contact you.
 
 Name: ${name}
 Phone: ${phone}
-Email: ${email}
 Subject: ${subject}
 
 Message:
@@ -239,14 +238,14 @@ ${message}
               </div>
 
               {/* Email */}
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Input
                   name="email"
                   type="email"
                   placeholder="Email Address *"
                   required
                 />
-              </div>
+              </div> */}
 
               {/* Subject */}
               <div className="mt-4">

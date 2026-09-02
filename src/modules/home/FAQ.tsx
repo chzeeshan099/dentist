@@ -11,44 +11,44 @@ import { FadeIn } from "@/src/components/motion/fade-in";
 
 const faqs = [
   {
-    question: "How do I book a consultation?",
+    question: "How do I book a dental appointment?",
     answer:
-      "You can book a consultation by calling the clinic directly or by submitting the appointment request form on our website. Our team will help you choose a suitable consultation time.",
+      "You can book an appointment by calling our clinic or submitting the appointment request form on our website. Our team will help you choose a convenient time.",
   },
   {
-    question: "Which procedures do you offer?",
+    question: "What dental services do you offer?",
     answer:
-      "Our services include facial procedures, hair transplant treatments, skin and aesthetic treatments, and other cosmetic procedures. The appropriate treatment is determined after an individual consultation.",
+      "We offer a range of dental services including teeth cleaning, cavity treatment, fillings, teeth whitening, braces and alignment, dental implants, crowns and other restorative treatments.",
   },
   {
     question: "Do I need a consultation before treatment?",
     answer:
-      "Yes. A consultation allows the doctor to understand your concerns, assess your needs and discuss suitable treatment options, expected outcomes and aftercare.",
+      "Yes. A consultation helps the dentist understand your dental concerns, assess your oral health and recommend the most suitable treatment options for you.",
   },
   {
-    question: "How do I know which procedure is right for me?",
+    question: "How often should I visit the dentist?",
     answer:
-      "Every patient has different needs and goals. During your consultation, the doctor will assess your concerns and explain the treatment options that may be appropriate for you.",
+      "Regular dental checkups are important for maintaining good oral health. Your dentist can recommend an appropriate visit schedule based on your individual dental needs.",
   },
   {
-    question: "How long does recovery take?",
+    question: "Does dental treatment hurt?",
     answer:
-      "Recovery time varies depending on the procedure and the individual patient. During your consultation, you will receive specific information about expected recovery and aftercare.",
+      "Our team focuses on providing gentle and comfortable care. The treatment process and available comfort options will be explained to you before your procedure.",
   },
   {
-    question: "Do you offer hair transplant procedures?",
+    question: "Can you fix crooked or misaligned teeth?",
     answer:
-      "Yes. Hair restoration is one of the services offered. During consultation, your hair condition and goals can be assessed to determine an appropriate treatment approach.",
+      "Yes. Depending on your dental condition, suitable teeth alignment options may be discussed during your consultation to help improve alignment and your overall bite.",
   },
   {
-    question: "Are the results of cosmetic procedures permanent?",
+    question: "What should I do if I have a toothache?",
     answer:
-      "Results vary depending on the procedure, individual factors and ongoing care. During consultation, the doctor can explain the expected longevity and factors that may affect your results.",
+      "If you have persistent tooth pain or discomfort, it is best to schedule a dental appointment so the cause can be assessed and appropriate treatment can be recommended.",
   },
   {
-    question: "How can I contact the clinic?",
+    question: "How can I contact the dental clinic?",
     answer:
-      "You can contact the clinic by phone or visit the clinic during the available consultation hours. You can also use the appointment request option on this website.",
+      "You can contact our clinic by phone or use the appointment request option on our website. Our team will be happy to assist you.",
   },
 ];
 
@@ -116,8 +116,8 @@ export default function FAQ() {
           </div>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-            Find answers to common questions about consultations,
-            procedures, recovery and patient care.
+           Find answers to common questions about dental appointments, treatments,
+           oral health and patient care.
           </p>
         </div>
 
@@ -145,8 +145,8 @@ export default function FAQ() {
               </h3>
 
               <p className="mt-3 text-sm leading-6 text-white/65">
-                Our team is happy to help you understand your treatment
-                options and guide you through the consultation process.
+              Our friendly dental team is here to answer your questions and help you
+              understand the best care options for your smile.
               </p>
 
               {/* Divider */}
@@ -162,11 +162,11 @@ export default function FAQ() {
 
                 <div>
                   <p className="text-xs font-semibold text-white">
-                    Speak With Our Team
+                   Speak With Our Dental Team
                   </p>
 
                   <p className="mt-1 text-xs leading-5 text-white/55">
-                    Get personalized guidance about your consultation.
+                    Get personalized guidance about your dental appointment.
                   </p>
                 </div>
               </div>
@@ -307,7 +307,7 @@ export default function FAQ() {
             href="#appointment"
             className="group flex shrink-0 items-center gap-2 rounded-xl bg-[#062D4D] px-5 py-3.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:bg-[#0A3B5D]"
           >
-            Book Consultation
+            Book Appointment
 
             <ArrowRight
               size={17}

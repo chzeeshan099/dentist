@@ -109,7 +109,7 @@ export default function AboutDoctor() {
             <div className="mb-7 h-[2px] w-11 bg-[#C9A657]" />
 
             {/* Heading */}
-            <h2 className="font-serif text-[35px] sm:text-[43px] font-medium leading-[1.08] tracking-[-0.035em] text-[#092D4A] sm:text-[48px] lg:text-[52px] xl:text-[57px]">
+            <h2 className=" text-[35px] sm:text-[43px] font-medium leading-[1.08] tracking-[-0.035em] text-[#092D4A] sm:text-[48px] lg:text-[52px] xl:text-[57px]">
               Dedicated to Excellence.
               <br />
 

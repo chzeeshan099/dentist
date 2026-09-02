@@ -107,7 +107,7 @@ export function Footer() {
                 <span className="h-px w-9 bg-[#D4A64F]" />
               </div>
 
-              <h2 className="mt-4 font-serif text-[30px] leading-tight text-white sm:text-[36px]">
+              <h2 className="mt-4 text-[30px] leading-tight text-white sm:text-[36px]">
                 Ready to Take the Next Step?
               </h2>
 
@@ -157,7 +157,7 @@ export function Footer() {
               </div>
 
               <div>
-                <p className="font-serif text-[21px] font-medium leading-none text-white">
+                <p className="text-[21px] font-medium leading-none text-white">
                   Dr. Rizwan
                 </p>
 

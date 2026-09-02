@@ -90,7 +90,7 @@ ${message}
           </div>
 
           {/* Heading */}
-          <h2 className="font-serif text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[62px]">
+          <h2 className="text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.035em] text-[#092D4A] sm:text-5xl lg:text-[62px]">
             Contact{" "}
             <span className="text-[#286FA7]">
               Us

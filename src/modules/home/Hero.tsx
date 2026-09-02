@@ -129,7 +129,7 @@ const AnimatedCounter = ({
     return (
       <div
         ref={ref}
-        className="font-serif text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]"
+        className=" text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]"
       >
         Advanced
       </div>
@@ -139,7 +139,7 @@ const AnimatedCounter = ({
   return (
     <div
       ref={ref}
-      className="font-serif text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]"
+      className=" text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]"
     >
       {count.toFixed(decimals)}
       {suffix}
@@ -174,23 +174,23 @@ const Hero = () => {
             <span className="h-px w-7 sm:w-10 bg-[#C9A657]" />
 
             <span className="text-[9px] font-bold uppercase tracking-[0.22em] text-[#17648A] sm:text-xs">
-              Expert Care · Natural Results
+              Healthy Smile · Confident You
             </span>
           </div>
 
           {/* Heading */}
-          <h2 className="max-w-2xl font-serif text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.03em] text-[#092D4A] sm:text-[56px] lg:text-[64px] xl:text-[70px]">
-            Enhancing
+          <h2 className="max-w-2xl text-[35px] sm:text-[43px] font-medium leading-[1.05] tracking-[-0.03em] text-[#092D4A] sm:text-[56px] lg:text-[64px] xl:text-[70px]">
+            Quality
             <br />
 
             <span className="text-[#176C91]">
-              Confidence
+              Dental Care
             </span>
 
             <br />
 
             <span className="text-[#092D4A]">
-              Transforming Lives
+              You Can Trust
             </span>
           </h2>
 
@@ -199,9 +199,9 @@ const Hero = () => {
 
           {/* Description */}
           <p className="max-w-xl text-[15px] leading-7 text-slate-600 sm:text-base">
-            Advanced aesthetic, reconstructive and hair restoration
-            treatments with precision, safety and personalized care
-            designed around your individual needs.
+          We provide gentle, personalized dental care
+          for you and your family in a comfortable
+          and friendly environment.
           </p>
 
           {/* Feature Pills */}
@@ -279,7 +279,7 @@ const Hero = () => {
             >
               <CalendarDays size={18} />
 
-              Book a Consultation
+              Book Appointment
 
               <ArrowRight
                 size={16}
@@ -291,7 +291,7 @@ const Hero = () => {
               href="#procedures"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#0B416A]/30 bg-white px-3 py-3.5 text-xs font-semibold text-[#082F50] transition duration-300 hover:-translate-y-1 hover:border-[#C9A657] hover:bg-[#FFFDF8]"
             >
-              Explore Procedures
+              Your Services
 
               <ArrowRight size={17} />
             </Link>
@@ -315,7 +315,7 @@ const Hero = () => {
           {/* Doctor Image */}
           <div className="absolute inset-0 rounded-md overflow-hidden">
             <Image
-              src="/doctor.png"
+              src="/hero2.png"
               alt="Dr. M. Rizwan Ul Zaman Kharal"
               fill
               priority
@@ -328,7 +328,7 @@ const Hero = () => {
 
       
           {/* Doctor Information Card */}
-          <div className="absolute bottom-7 left-5 right-5 z-20 rounded-2xl border border-white/20 bg-[#082F50]/95 p-5 shadow-2xl backdrop-blur-md sm:bottom-10 sm:left-auto sm:right-8 sm:w-[360px]">
+          {/* <div className="absolute bottom-7 left-5 right-5 z-20 rounded-2xl border border-white/20 bg-[#082F50]/95 p-5 shadow-2xl backdrop-blur-md sm:bottom-10 sm:left-auto sm:right-8 sm:w-[360px]">
             
             <p className="text-lg font-semibold text-[#E3BE68] sm:text-xl">
               Dr. M. Rizwan Ul Zaman Kharal
@@ -344,7 +344,7 @@ const Hero = () => {
               <span className="h-2 w-2 rounded-full bg-[#D6AE5C]" />
               Personalized Surgical Care
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -383,7 +383,7 @@ const Hero = () => {
                     suffix={stat.suffix}
                     decimals={stat.number === 4.9 ? 1 : 0}
                   />
-                  {/* <div className="font-serif text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]">
+                  {/* <div className=" text-[22px] font-medium leading-none text-[#092D4A] sm:text-[32px]">
                     {stat.value}
                   </div> */}
 
@@ -405,7 +405,7 @@ const Hero = () => {
         <div className="grid overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-[0_20px_60px_rgba(8,47,80,0.10)] grid-cols-2 lg:grid-cols-4">
           
           <div className="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-5  py-5 border-b border-slate-100  lg:border-b-0 lg:border-r">
-            <div className="text-base sm:text-2xl font-serif font-semibold text-[#082F50]">
+            <div className="text-base sm:text-2xl font-semibold text-[#082F50]">
               10+
             </div>
 
@@ -420,7 +420,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-5  py-5 border-b border-slate-100 sm:border-r lg:border-b-0">
-            <div className="text-base sm:text-2xl font-serif font-semibold text-[#082F50]">
+            <div className="text-base sm:text-2xl font-semibold text-[#082F50]">
               5000+
             </div>
 
@@ -435,7 +435,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-5  py-5 border-b border-slate-100 lg:border-b-0 lg:border-r">
-            <div className="text-base sm:text-2xl font-serif font-semibold text-[#082F50]">
+            <div className="text-base sm:text-2xl font-semibold text-[#082F50]">
               15+
             </div>
 
@@ -450,7 +450,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center gap-2 sm:gap-4 px-2 sm:px-5  py-5">
-            <div className="text-base sm:text-2xl font-serif font-semibold text-[#082F50]">
+            <div className="text-base sm:text-2xl font-semibold text-[#082F50]">
               4.9/5
             </div>
 

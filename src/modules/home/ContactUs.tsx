@@ -12,7 +12,7 @@ import {
   Headphones,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "923008765072";
+const WHATSAPP_NUMBER = "923195641661";
 
 export default function ContactUs() {
   const handleWhatsApp = (e: React.FormEvent<HTMLFormElement>) => {
@@ -147,7 +147,7 @@ ${message}
                   href="tel:03008769011"
                   className="transition hover:text-[#C9973E]"
                 >
-                  0300 8765072
+                 {WHATSAPP_NUMBER}
                 </a>
               </ContactItem>
 
@@ -160,7 +160,7 @@ ${message}
                   href="mailto:info@drrazwankharal.com"
                   className="break-all transition hover:text-[#C9973E]"
                 >
-                  info@drrazwankharal.com
+                  info@dentiest.com
                 </a>
               </ContactItem>
 
@@ -169,13 +169,13 @@ ${message}
                 icon={<MapPin size={21} strokeWidth={1.6} />}
                 title="Visit Us"
               >
-                <span>
-                  Elite Cosmoplast Clinic
-                  <br />
-                  Near Iqbal Tikka Chowk,
-                  <br />
-                  D.H.Q. Link Road, Layyah
-                </span>
+             <span>
+              SmileCare Dental Clinic
+             <br />
+              Main Commercial Area,
+             <br />
+              Model Town, Lahore, Pakistan
+             </span>
               </ContactItem>
 
               {/* Timing */}
